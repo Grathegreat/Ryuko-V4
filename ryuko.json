@@ -4,15 +4,15 @@
   "language": "en",
   "approval": false,
   "premium": false,
-  "BOTNAME": "ryuko",
-  "EMAIL": "sanjivfresh@gmail.com",
-  "PREFIX": "-",
+  "BOTNAME": "boogeyman",
+  "EMAIL": "onlyonehacker999@gmail.com",
+  "PREFIX": "*",
   "OPERATOR": [
-    "",
-    "100091459940475"
+    "61569790299591",
+    "61582332604814"
   ],
   "ADMINBOT": [
-    ""
+    "61569790299591"
   ],
   "disabledcmds": [],
   "disabledevents": [],
