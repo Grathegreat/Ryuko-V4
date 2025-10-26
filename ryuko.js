@@ -3,7 +3,7 @@ module.exports = async ({ api, event }) => {
   
   const configCustom = {
     autosetbio: {
-      status: false,
+      status: true,
       bio: `prefix : ${global.config.PREFIX}`,
       note: 'automatically change the bot bio.'
     },
@@ -22,12 +22,12 @@ module.exports = async ({ api, event }) => {
     },
     autoRestart: {
       status: true,
-      time: 40, // 40 minutes
+      time: 3, // 40 minutes
       note: 'to avoid problems, enable periodic bot restarts, set the status to false if you want to disable auto restart function.'
     },
     accpetPending: {
-      status: false,
-      time: 10, // 10 minutes
+      status: true,
+      time: 2, // 10 minutes
       note: 'approve waiting messages after a certain time, set the status to false if you want to disable auto accept message request.'
     }
   }
